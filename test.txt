@@ -1,2 +1,3 @@
 I made changes!
 againnn
+trying commit --amend
