@@ -2,3 +2,4 @@ git switch ... --> switching branches
 git branch --> listing branches
 git branch ... --> createing new branch ...
 git switch -c ... --> creating a new branch and switch to it
+git branch -m  ... --> renaming a branc (you have to be in that branch you want to rename)
