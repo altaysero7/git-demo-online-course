@@ -1,3 +1,4 @@
 I also made changes here!
 git add
 git commit --amend
+trying commit -a -m
