@@ -1,0 +1,3 @@
+git switch ... --> switching branches
+git branch --> listing branches
+git branch ... --> createing new branch ...
