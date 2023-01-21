@@ -1,3 +1,4 @@
 git switch ... --> switching branches
 git branch --> listing branches
 git branch ... --> createing new branch ...
+git switch -c ... --> creating a new branch and switch to it
