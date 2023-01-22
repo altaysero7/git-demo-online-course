@@ -5,3 +5,4 @@ git switch - --> switch the head to the branch you were working on earlier
 git checkout HEAD <file(s)> OR git checkout -- <file(s)> --> revert the file(s) back to the version it was in the last commit (discarding changes)
 git restore <file(s)> --> does the same thing as above line (but be careful with this as there is no way to redo after this commit so you cannot restore the changes back again)
 git restore --source HEAD~2 <file(s)> --> restore the version of that file(s) (only the file(s) not everything in that branch) to the version which it was like in that specific commit that HEAD refers to
+git restore --staged <file(s)> --> takes the specific file(s) from the staged list (not in the "git add ." command anymore)
