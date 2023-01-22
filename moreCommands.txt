@@ -6,3 +6,14 @@ git checkout HEAD <file(s)> OR git checkout -- <file(s)> --> revert the file(s) 
 git restore <file(s)> --> does the same thing as above line (but be careful with this as there is no way to redo after this commit so you cannot restore the changes back again)
 git restore --source HEAD~2 <file(s)> --> restore the version of that file(s) (only the file(s) not everything in that branch) to the version which it was like in that specific commit that HEAD refers to
 git restore --staged <file(s)> --> takes the specific file(s) from the staged list (not in the "git add ." command anymore)
+
+mostly together used:
+git reset <commit key> --> goes to that specific commit with all the changes (but you will lose the commits not changes)
+git switch -c newBranch
+git add .
+git commit -m "wrong commits"
+git switch master
+summary: took the bad commits to the new branch and restored the version till to that commit key specified in the git reset
+
+git reset --hard <commit key> --> goes to that specific commit and you will lose all the commits and the changes
+
