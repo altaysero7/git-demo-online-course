@@ -1,0 +1,3 @@
+git branch -d ... --> deleting a branch
+git branch -D ... --> force to delete a brach even it is not merged
+note: you can't delete a branch you are viewing
