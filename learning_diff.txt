@@ -1,0 +1,2 @@
+git diff --> shows the difference between last commit and the changes you have done (but not committed yet)
+

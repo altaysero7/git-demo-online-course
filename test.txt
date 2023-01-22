@@ -1,3 +1,4 @@
 I made changes!
 againnn
 trying commit --amend --> going back to the one earlier commit to make changes
+trying git diff to see differences
