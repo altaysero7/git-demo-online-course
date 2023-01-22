@@ -1,0 +1,7 @@
+git stash --> stashing (saving) uncommitted (no "git add ." or "git commit" is done) changes to the stash so that you can move around branches and come back and retrieve them again
+git stash pop --> retrieve the last stashed modifications
+git stash apply --> retrieve the last stashed modifications but leaves a copy of the modifications so if needed you can apply (or pop) them later in other branch)
+git stash list --> can list all the stashes saved
+git stash apply stash@{2} --> retrieve the third last stashed modifications (but leaves a copy of it)
+git stash drop stash@{1} --> deletes particular stash
+git stash clear --> deletes everything in the stash list and clear it
