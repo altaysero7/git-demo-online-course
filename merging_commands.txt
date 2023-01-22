@@ -1,0 +1,5 @@
+Fast-Forward merge:
+If no coillisons in the code:
+first go to branch you want the merge happen
+then use git merge ... --> ... is the branch you want to merge it to the head pointer you went in the first step
+
