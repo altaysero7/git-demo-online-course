@@ -1,0 +1,2 @@
+git checkout <commit key> --> detach the head to that specific commit (time travel)
+git switch master <or ...> ..> re-attach the head back to the master (or to the branch where you were before)
