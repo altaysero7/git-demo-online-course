@@ -1,2 +1,4 @@
 git diff --> shows the difference between last commit and the changes you have done (but not committed yet)
-
+git diff --> shows the difference in unstage changes (changes before the "git add ." command)
+git diff --staged --> shows the difference in staged changes (changes after the "git add ." command>
+git diff HEAD --> shows the difference since last commit ~~ all changes in staged and unstaged (all changes before and after "git add ." command)
