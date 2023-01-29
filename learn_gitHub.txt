@@ -1,0 +1,2 @@
+git clone <url> --> clone a repository
+new SSH key is created.
