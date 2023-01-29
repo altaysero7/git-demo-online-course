@@ -1,2 +1,6 @@
 git clone <url> --> clone a repository
 new SSH key is created.
+git remote -v --> view any existing remotes for the current repository
+git remote add <name(origin)> <url> ---> adding a new remote (connect your github repository)
+git remote rename <old> <new> --> renaming remote
+git remote remove <name> --> deleting remote
