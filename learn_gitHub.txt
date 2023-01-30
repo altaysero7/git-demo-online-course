@@ -4,3 +4,7 @@ git remote -v --> view any existing remotes for the current repository
 git remote add <name(origin)> <url> ---> adding a new remote (connect your github repository)
 git remote rename <old> <new> --> renaming remote
 git remote remove <name> --> deleting remote
+git push <remote> <branch> --> updating the repository in the github with the local changes
+git push <remote> <local-branch:remote-branch> --> addtional study to distinguish that we can push different branches on local machine to different branches in github.
+git push -u <remote> <branch> --> creating upstream so you can use "git push" (so github branch will be paired with the local branch and you can use shortcut "git push") (make lifes easier) (only one time needs to be done then you can use "git push" only)
+git branch -M main --> renames the master branch as main
